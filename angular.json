@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "kids-home": {
+    "the-fred-hollows-foundation": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/kids-home",
+            "outputPath": "dist/the-fred-hollows-foundation",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -74,18 +74,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "kids-home:build"
+            "browserTarget": "the-fred-hollows-foundation:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "kids-home:build:production"
+              "browserTarget": "the-fred-hollows-foundation:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "kids-home:build"
+            "browserTarget": "the-fred-hollows-foundation:build"
           }
         },
         "test": {
@@ -122,18 +122,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "kids-home:serve"
+            "devServerTarget": "the-fred-hollows-foundation:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "kids-home:serve:production"
+              "devServerTarget": "the-fred-hollows-foundation:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "kids-home",
+  "defaultProject": "the-fred-hollows-foundation",
   "cli": {
     "analytics": "78073f69-fac2-41cc-908b-2f45b8f617ae"
   }
