@@ -6,7 +6,7 @@ import { Component,HostListener, ElementRef } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'kids-home';
+  title = 'The Fred Hollows Foundation';
   isShow: boolean;
   topPosToStartShowing = 100;
 
