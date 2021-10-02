@@ -25,7 +25,13 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+
+              {
+                "glob": "_redirects",
+                "input": "src",
+                "output": "/"
+              }
             ],
             "styles": [  
               "./node_modules/aos/dist/aos.css", 
@@ -37,8 +43,8 @@
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/popper.js/dist/umd/popper.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./node_modules/aos/dist/aos.js",   
-            ]           
+              "./node_modules/aos/dist/aos.js"  
+            ]          
           },
           "configurations": {
             "production": {
